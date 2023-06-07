@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main_div {
+  width: 100%;
+  height: 100vh;
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.center_div {
+  width: 30%;
+  height: 80vh;
+  background-color: #282c34;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+
+}
+
+.add {
+  font-size: 23px;
+  font-weight: 700;
+  height: 40px;
+  width: 40px;
+  align-items: center;
+}
+
+.add:hover {
+  background-color: green;
+}
+
+.update {
+  font-size: 15px;
+  height: 40px;
+  width: auto;
+  align-items: center;
+}
+
+.update:hover {
+  background-color: green;
+}
+
+h1 {
+  color: white;
+  background: transparent;
+  background-color: rgb(204, 145, 56);
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+}
+
+input {
+  text-align: center;
+  height: 30px;
+  top: 15px;
+  border: none;
+  background: transparent;
+  font-size: 15px;
+  font-weight: 600;
+  width: 60%;
+  border-bottom: 2px solid cornflowerblue;
+  outline: none;
+  color: white;
+}
+
+button {
+  border: none;
+  padding: 8px;
+  border-radius: 20px;
+  margin: 0 5px;
+  font-size: 15px;
+  background-color: cornflowerblue;
+  color: rgb(243, 243, 11);
+  outline: none;
+  min-height: 30px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: red;
+}
+
+ul {
+  margin-top: 30px;
+}
+
+ul li {
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  min-height: 40px;
+  align-items: center;
+  text-transform: capitalize;
+  display: flex;
+  color: black;
+  width: 100px;
+
+}
+
+.alltodo {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.singletodo {
+
+  border-radius: 40px;
+  margin: 10px 20px;
+  background-color: white;
+  padding: 3px 20px;
+  display: flex;
+  flex-direction: row;
+  width: 325px;
+  align-items: center;
+}
+
+.checkbox {
+  margin-left: -90px;
+  margin-right: -70px;
+}
+
+.todotext {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.todotext_check {
+  text-decoration: line-through;
+  color: green;
+  text-decoration-color: black;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.edit:hover{
+ background-color: yellow;
+ color: green;
+}
